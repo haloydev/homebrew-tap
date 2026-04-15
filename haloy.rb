@@ -1,17 +1,17 @@
 class Haloy < Formula
   desc "CLI for haloy deployments"
   homepage "https://github.com/haloydev/haloy"
-  version "0.1.0-beta.54"
+  version "0.1.0-beta.55"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/haloydev/haloy/releases/download/v0.1.0-beta.54/haloy-darwin-arm64"
-      sha256 "a295ff1eb34bb57838a93be4a524e2f1c5e708e006541d5027f05eb0f937e8ed"
+      url "https://github.com/haloydev/haloy/releases/download/v0.1.0-beta.55/haloy-darwin-arm64"
+      sha256 "7daa618466e3b54f41edae848378ce0a7c3501e61460ab7268fba5985f18bcd2"
     end
     on_intel do
-      url "https://github.com/haloydev/haloy/releases/download/v0.1.0-beta.54/haloy-darwin-amd64"
-      sha256 "315d8e2fe22f45a477917d640fe2e65cd010fad0ce38bb84f2794dc054894bb3"
+      url "https://github.com/haloydev/haloy/releases/download/v0.1.0-beta.55/haloy-darwin-amd64"
+      sha256 "7a93636f86b6f4060cc98d8acc82f2b36aaf829f0eeafc5e1c3af159dc2dae32"
     end
   end
 
